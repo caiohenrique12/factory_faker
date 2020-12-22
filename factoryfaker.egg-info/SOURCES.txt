@@ -1,0 +1,9 @@
+setup.py
+factory_faker/__init__.py
+factory_faker/factory_faker.py
+factoryfaker.egg-info/PKG-INFO
+factoryfaker.egg-info/SOURCES.txt
+factoryfaker.egg-info/dependency_links.txt
+factoryfaker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_factory_faker.py
