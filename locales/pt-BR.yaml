@@ -557,19 +557,11 @@ pt-BR:
 
     university:
       prefix: [Universidade, Faculdade, Centro Tecnológico]
-      region: [Federal, Estadual, Municipal, Rural, Regional, Católica, Metodista]
+      region: [Federal, Estadual, Rural, Regional, Católica, Metodista]
       suffix: ['do Sul', 'do Norte', 'a Distância', 'EAD', 'do Leste', 'do Oeste', 'do Nordeste', 'do Suldeste', 'da Floresta Amazônica', 'da Caatinga', 'Atlântica']
-      name:
-              - "#{University.prefix} #{Name.last_name} #{University.suffix}"
-              - "#{University.prefix} do(a) #{Address.state} #{University.suffix}"
-              - "#{University.prefix} do(a) #{Address.state}"
-              - "#{University.prefix} #{University.region} do(a) #{Address.state}"
-              - "#{University.prefix} #{University.region} do(a) #{Address.state} #{University.suffix}"
-              - "#{University.prefix} #{Name.last_name} #{University.suffix}"
-              - "#{University.prefix} #{Name.last_name}"
 
     internet:
-      free_email: [gmail.com, yahoo.com, hotmail.com, live.com, bol.com.br]
+      free_email: [gmail.com, yahoo.com, hotmail.com, live.com, bol.com]
       domain_suffix: [br, com, biz, info, name, net, org]
 
     lorem:
@@ -582,12 +574,6 @@ pt-BR:
       key_skills: ["Trabalho em equipe", "Comunicação", "Resolução de problemas", "Liderança", "Organização", "Trabalhar sobre pressão", "Confiança", "Auto motivado", "Habilidades de networking", "Proatividade", "Aprendizado rápido", "Experiência com tecnologia"]
       employment_type: ["Integral", "Meio período", "Temporário", "Contrato", "Estágio", "Comissão"]
       education_level: ["Bacharelado", "Mestrado", "Doutorado", "Técnico", "Pós-graduação", "Pós-doutorado", "Licenciatura"]
-      title:
-        - "#{position} de #{field} #{seniority}"
-        - "#{position} #{field} #{seniority}"
-        - "#{seniority} #{position} de #{field}"
-        - "#{position} de #{field}"
-        - "#{position} #{seniority}"
 
     name:
       male_first_name: ["Alessandro","Alexandre","Antônio","Arthur","Benício","Benjamin","Bernardo","Breno","Bryan",
