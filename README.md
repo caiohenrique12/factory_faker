@@ -1,6 +1,15 @@
 # factory_faker
 Generates fake data with python
 
+# Run via Docker
+
+## Build image run:
+`docker build -t factory_facker_image --rm .`
+
+## Run image:
+`docker run -it --name factory_facker --rm factory_facker_image`
+
+
 # Usage
 
 ```python
